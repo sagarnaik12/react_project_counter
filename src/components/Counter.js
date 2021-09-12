@@ -3,6 +3,11 @@ import React, { useState } from 'react';
 const Counter = () => {
 
     let [counter , counterTrigger] = useState(0);
+    let [color , changeColor] = useState('white');
+
+    const changeColorTrigger = () => {
+        
+    }
 
     const increase = () => {
         counterTrigger((prev) => prev + 1);
