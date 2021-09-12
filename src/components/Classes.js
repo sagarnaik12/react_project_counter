@@ -7,7 +7,10 @@ class Badges extends React.Component {
 
     render () {
         return (
-        <h1>Classes</h1>
+            <div>
+                <h1>Classes</h1>
+                <h2>Comming Soon on Classes Components</h2>
+            </div>
         )
     }
 }
